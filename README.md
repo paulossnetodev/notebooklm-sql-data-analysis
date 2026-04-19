@@ -32,6 +32,13 @@ Este material foi desenvolvido com os seguintes objetivos:
 
 ---
 
+## 📘 Miniguia de Estudo 
+
+Acesse o material consolidado aqui: 
+[SQL Data Analysis Study Guide](./mini-guide-sql-data-analysis.md)
+
+---
+
 ## ⚠️ Atenção
 
 Este projeto utiliza materiais públicos disponíveis na internet para fins educacionais.
