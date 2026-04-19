@@ -26,7 +26,7 @@ Este material foi desenvolvido com os seguintes objetivos:
 * 🎬 [SQL Full Course – Learn SQL in 4 Hours](https://www.youtube.com/watch?v=7mz73uXD9DA)
 * 🎬 [SQL Interview Questions and Answers](https://www.youtube.com/watch?v=9cAKQWodpvM)
 * 🎬 [Advanced SQL Tutorial](https://www.youtube.com/watch?v=5OdVJbNCSso)
-* 📖 [SQL Interview Questions: From Beginner to Advanced](https://www.dataquest.io/blog/sql-interview-questions-from-beginner-to-advanced/)
+* 📄 [SQL Interview Questions: From Beginner to Advanced](https://www.dataquest.io/blog/sql-interview-questions-from-beginner-to-advanced/)
 
 ---
 
