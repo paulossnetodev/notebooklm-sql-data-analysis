@@ -1,4 +1,4 @@
-# Caso: Geração de Perguntas de SQL
+# Caso 2: Geração de Perguntas de SQL
 
 ## 🎯 Objetivo
 
