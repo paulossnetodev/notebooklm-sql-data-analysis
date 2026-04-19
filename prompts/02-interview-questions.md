@@ -35,17 +35,25 @@ A resposta passou a incluir:
 * Explicações detalhadas
 * Aplicação prática (ex: anti-join, agregações, lógica de execução)
 
+---
+
 Exemplo gerado pelo NotebookLM:
+
+---
 
 **Entrevistador pergunta:**
 
 "Dada uma tabela de transactions, escreva uma consulta que mostre o valor total vendido por dia, ordenado pela data mais recente."
+
+---
 
 **Resposta esperada do candidato:**
 
 Utilizamos a função de agregação `SUM(amount)` para calcular o total vendido por dia, combinada com `GROUP BY` para agrupar as transações pela data.
 
 O uso de um alias (`AS total_diario`) melhora a legibilidade do resultado.
+
+---
 
 ```sql
 SELECT date, SUM(amount) AS total_diario
