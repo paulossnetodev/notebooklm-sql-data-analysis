@@ -35,7 +35,17 @@ A resposta passou a incluir:
 * Explicações detalhadas
 * Aplicação prática (ex: anti-join, agregações, lógica de execução)
 
-Exemplo gerado:
+Exemplo gerado pelo NotebookLM:
+
+**Entrevistador pergunta:**
+
+"Dada uma tabela de transactions, escreva uma consulta que mostre o valor total vendido por dia, ordenado pela data mais recente."
+
+**Resposta esperada do candidato:**
+
+Utilizamos a função de agregação `SUM(amount)` para calcular o total vendido por dia, combinada com `GROUP BY` para agrupar as transações pela data.
+
+O uso de um alias (`AS total_diario`) melhora a legibilidade do resultado.
 
 ```sql
 SELECT date, SUM(amount) AS total_diario
@@ -44,12 +54,12 @@ GROUP BY date
 ORDER BY date DESC;
 ```
 
-**Análise:**
+* A lógica está correta para agregação por dia
+* Uso adequado de `GROUP BY` e `SUM()`
+* Ordenação correta para análise temporal
 
-* Uso correto de agregação com `SUM()`
-* Aplicação adequada de `GROUP BY`
-* Ordenação para análise temporal
-* Query simples, mas alinhada com cenário real de negócio
+⚠️ **Observação importante:**
+Em cenários reais, o nome da coluna pode não ser `date` (ex: `order_date`, `transaction_date`) e pode ser necessário tratar timestamps com `DATE()` para garantir o agrupamento correto.
 
 ---
 
